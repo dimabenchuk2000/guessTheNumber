@@ -26,5 +26,3 @@ function numberCheck(rNum) {
 let randomNumber = numberCheck(Math.ceil(Math.random() * 100));
 
 randomNumber(+prompt("Угадай число от 1 до 100"));
-
-console.log(randomNumber);
