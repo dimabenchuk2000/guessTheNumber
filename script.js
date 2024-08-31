@@ -1,3 +1,5 @@
+'use strict'
+
 alert("Добро пожаловать в игру \"Угадай число\"");
 
 const isNumber = function (num) {
