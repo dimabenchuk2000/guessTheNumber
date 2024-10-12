@@ -2,6 +2,8 @@
 
 alert("Добро пожаловать в игру \"Угадай число\"");
 
+let randomNumber = numberCheck(Math.ceil(Math.random() * 100), 10);
+
 const isNumber = function (num) {
     return !isNaN(parseFloat(num)) && isFinite(num);
 }
@@ -42,7 +44,5 @@ function numberCheck(rNum, attempts) {
 
     }
 }
-
-let randomNumber = numberCheck(Math.ceil(Math.random() * 100), 10);
 
 randomNumber(+prompt("Угадай число от 1 до 100"));
